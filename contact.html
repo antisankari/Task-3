@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content = "TODO: create a superfunny description later!">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <title>My very first webpage!</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+                <a class="navbar-brand custom-navbar-brand" href="#">My Website</a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link custom-nav-link" href="index.html">Front page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link custom-nav-link" href="cv.html">Curriculum Vitae</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link custom-nav-link" href="hobbies.html">Hobbies and interest</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link custom-nav-link" href="contact.html">Contact me!</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <hr class="rounded_separator">
+
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="contacttext">Send me a message and I'll get back to you as soon as possible!</p>
+                </div>
+            </div>
+
+            <form class="contactform">
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="fullname">Full name:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="fullname" name="fullname">
+                    </div>
+                </div>
+    
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="age">Age:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="number" class="form-control" id="age" name="age">
+                    </div>
+                </div>
+    
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="email">Email:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                </div>
+    
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label>How did you know about my page?</label>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="google" name="radioselector" value="Google">
+                            <label class="form-check-label" for="google">Google</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="friend" name="radioselector" value="Friend">
+                            <label class="form-check-label" for="friend">Friend</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="linkedin" name="radioselector" value="LinkedIn">
+                            <label class="form-check-label" for="linkedin">LinkedIn</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="other" name="radioselector" value="Other">
+                            <label class="form-check-label" for="other">Other</label>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="message">Your message:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <textarea class="form-control" id="message" name="message" rows="4"></textarea>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6Jty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
